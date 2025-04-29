@@ -1,3 +1,17 @@
+const Menu = () => {
+  return (
+    <div className="">
+      {menuItems.map((i) => (
+        <div className="" key={i.title}>
+          <span>{i.title}</span>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Menu;
+
 const menuItems = [
   {
     title: "MENU",
